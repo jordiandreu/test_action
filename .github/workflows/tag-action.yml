@@ -22,5 +22,6 @@ jobs:
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         push-branch: develop
+        files: .bumpversion.cfg
         commit-message: 'Bump version'
         rebase: 'true' # pull and rebase before commit
