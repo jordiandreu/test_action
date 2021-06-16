@@ -18,7 +18,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         WITH_V: false
     - name: push
-      uses: github-actions-x/commit@v2.8
+      uses: jordiandreu/commit@develop
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         push-branch: develop
